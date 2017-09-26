@@ -350,5 +350,12 @@
 	"PROCEDURES_HIGHLIGHT_DEF": "関数の内容を強調表示します。",
 	"PROCEDURES_CREATE_DO": "'%1' を作成",
 	"PROCEDURES_IFRETURN_TOOLTIP": "1番目の値が true の場合、2番目の値を返します。",
-	"PROCEDURES_IFRETURN_WARNING": "警告: このブロックは、関数定義内でのみ使用できます。"
+	"PROCEDURES_IFRETURN_WARNING": "警告: このブロックは、関数定義内でのみ使用できます。",
+	"EXCEL_GET_WORKBOOK": "%1のエクセルを読み込む",
+	"EXCEL_GET_SHEET": "エクセル%2からシート%1を取得",
+	"EXCEL_GET_CELL": "シート%2からセル%1を取得",
+	"EXCEL_GET_CELL_VALUE": "セル%1から値を取得",
+	"EXCEL_GET_MAX_ROW": "シート%1の最大行番号を取得",
+	"EXCEL_GET_MAX_COLUMN_NUMBER": "シート%1の最大列番号を取得",
+	"EXCEL_GET_MAX_COLUMN_NAME": "シート%1の最大列名を取得"
 }

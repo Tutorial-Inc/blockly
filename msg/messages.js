@@ -65,6 +65,9 @@ Blockly.Msg.VARIABLES_HUE = '330';
 /// {{Notranslate}} Hue value for all procedure blocks.
 Blockly.Msg.PROCEDURES_HUE = '290';
 
+/// {{Notranslate}} Hue value for all excel blocks.
+Blockly.Msg.EXCEL_HUE = '141';
+
 /// default name - A simple, general default name for a variable, preferably short.
 /// For more context, see
 /// [[Translating:Blockly#infrequent_message_types]].\n{{Identical|Item}}
@@ -1185,3 +1188,11 @@ Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = 'If a value is true, then return a sec
 Blockly.Msg.PROCEDURES_IFRETURN_HELPURL = 'http://c2.com/cgi/wiki?GuardClause';
 /// warning - This appears if the user tries to use this block outside of a function definition.
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = 'Warning: This block may be used only within a function definition.';
+
+Blockly.Msg.EXCEL_GET_WORKBOOK = 'load workbook with path %1';
+Blockly.Msg.EXCEL_GET_SHEET = 'get sheet by name %1 from %2';
+Blockly.Msg.EXCEL_GET_CELL = 'get cell %1 from %2';
+Blockly.Msg.EXCEL_GET_CELL_VALUE = 'get cell value of cell %1';
+Blockly.Msg.EXCEL_GET_MAX_ROW = "get max row number of sheet %1";
+Blockly.Msg.EXCEL_GET_MAX_COLUMN_NUMBER = "get max column number of sheet %1";
+Blockly.Msg.EXCEL_GET_MAX_COLUMN_NAME = "get max column name of sheet %1";

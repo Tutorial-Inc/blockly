@@ -1,0 +1,153 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="BV_M~ul~o$:aVDTDNkEM">workbook</variable>
+    <variable type="" id="hW{^S~9eLY6@vJ}T{ufJ">sheet</variable>
+    <variable type="" id="Q:TPzbj.~j^^j4SvgZ8_">cell</variable>
+    <variable type="" id="o.6UTGG1ft|`/B1x^,T$">value</variable>
+    <variable type="" id="524Uy6CEQM[[d!nKLULF">cell_name</variable>
+    <variable type="" id="bEE*W#7w8hUCKbbfRAsd">row</variable>
+    <variable type="" id="F]Wv3(b;#Tf#|tOB4F:U">column</variable>
+  </variables>
+  <block type="procedures_callnoreturn" id="2{nsY0Zm|MfT976czXar" x="237" y="12">
+    <mutation name="売上残高を読み込む"></mutation>
+  </block>
+  <block type="procedures_defnoreturn" id="eJyEh5RrQ6o{C!L9n36P" x="487" y="13">
+    <field name="NAME">売上残高を読み込む</field>
+    <comment pinned="false" h="80" w="160">売上表エクセルから、全ての行の期末残高を取得して何かをする関数です。</comment>
+    <statement name="STACK">
+      <block type="variables_set" id="iiG9M@1cvs|,7*Y5L?rU">
+        <field name="VAR" id="BV_M~ul~o$:aVDTDNkEM" variabletype="">workbook</field>
+        <value name="VALUE">
+          <block type="get_workbook" id="ARKH5f6Z2fV/%L|nD@x8">
+            <value name="FILEPATH">
+              <block type="text" id="PSb}){^]9}hBnfDJZ1ba">
+                <field name="TEXT">売上.xlsx</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="Df]oll..fSFnaKy7%{r#">
+            <field name="VAR" id="hW{^S~9eLY6@vJ}T{ufJ" variabletype="">sheet</field>
+            <value name="VALUE">
+              <block type="get_sheet" id="C9RxyIx,pMpZ)DsdEAI*">
+                <value name="EXCELBOOK">
+                  <block type="variables_get" id="T5k72|RdDBJFI|t0O`wK">
+                    <field name="VAR" id="BV_M~ul~o$:aVDTDNkEM" variabletype="">workbook</field>
+                  </block>
+                </value>
+                <value name="SHEETNAME">
+                  <block type="text" id="=O2PT=@:2_bMyBwqZ+Qb">
+                    <field name="TEXT">残高</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="xy6|{~hja1[)BLZ0~QT5">
+                <field name="VAR" id="F]Wv3(b;#Tf#|tOB4F:U" variabletype="">column</field>
+                <value name="VALUE">
+                  <block type="text" id="ga{dNRsVBo5BPxPMPL5f">
+                    <field name="TEXT">B</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="nY0*Ar$DGSNWW5x;=xnK">
+                    <field name="VAR" id="bEE*W#7w8hUCKbbfRAsd" variabletype="">row</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="8}k=A~$tUo#M@kHOc;;#">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="*kv,FS%:5`JYzV637J:Q">
+                        <field name="VAR" id="524Uy6CEQM[[d!nKLULF" variabletype="">cell_name</field>
+                        <value name="VALUE">
+                          <block type="text_join" id="5*Euf7eN*:)K`oZgM.%g">
+                            <mutation items="2"></mutation>
+                            <value name="ADD0">
+                              <block type="variables_get" id="mJ1vXby:i?`Wg2|x1BGC">
+                                <field name="VAR" id="F]Wv3(b;#Tf#|tOB4F:U" variabletype="">column</field>
+                              </block>
+                            </value>
+                            <value name="ADD1">
+                              <block type="variables_get" id="#sKKH[qz.raYgM2Qk^O3">
+                                <field name="VAR" id="bEE*W#7w8hUCKbbfRAsd" variabletype="">row</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="controls_repeat_ext" id="2N#08JgX%eevAFJNTy:]">
+                            <value name="TIMES">
+                              <shadow type="math_number" id="dN{e-RN}tv}8=cMKT?OB">
+                                <field name="NUM">10</field>
+                              </shadow>
+                              <block type="get_max_row" id="Mj1?N-J7at0J-HJ.V/}T">
+                                <value name="EXCELSHEET">
+                                  <block type="variables_get" id="~?[;]VbDc+ae,,$yl_r^">
+                                    <field name="VAR" id="hW{^S~9eLY6@vJ}T{ufJ" variabletype="">sheet</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO">
+                              <block type="variables_set" id="O#tt~:_#:|r1M`.auerm">
+                                <field name="VAR" id="Q:TPzbj.~j^^j4SvgZ8_" variabletype="">cell</field>
+                                <value name="VALUE">
+                                  <block type="get_cell" id="4,nv)MF]#8m1*DJW8`SS">
+                                    <value name="EXCELSHEET">
+                                      <block type="variables_get" id="gq3j.h*7n`+oLMHDJRO0">
+                                        <field name="VAR" id="hW{^S~9eLY6@vJ}T{ufJ" variabletype="">sheet</field>
+                                      </block>
+                                    </value>
+                                    <value name="CELLNAME">
+                                      <block type="variables_get" id="gG(fu_)2%HOx`py1p*6e">
+                                        <field name="VAR" id="524Uy6CEQM[[d!nKLULF" variabletype="">cell_name</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_set" id="*Y|P|N?*ND*uOjhP#e#m">
+                                    <field name="VAR" id="o.6UTGG1ft|`/B1x^,T$" variabletype="">value</field>
+                                    <value name="VALUE">
+                                      <block type="get_cell_value" id="89-eEIP5[`q+C$U%7Q:u">
+                                        <value name="EXCELCELL">
+                                          <block type="variables_get" id="B,uT-J9gx{?5ciW)(TYw">
+                                            <field name="VAR" id="Q:TPzbj.~j^^j4SvgZ8_" variabletype="">cell</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="math_change" id="M:M*Rn1e+PkjGCJq!Mwv">
+                                        <field name="VAR" id="bEE*W#7w8hUCKbbfRAsd" variabletype="">row</field>
+                                        <value name="DELTA">
+                                          <shadow type="math_number" id="8%F{F(3Ja37ZQixC]?5p">
+                                            <field name="NUM">1</field>
+                                          </shadow>
+                                          <block type="math_number" id="]fX-S{wHbI8(i67Mk|EM">
+                                            <field name="NUM">1</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

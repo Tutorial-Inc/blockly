@@ -2,8 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Blockly Playground</title>
+<title>Robotic Blockly Development</title>
+<link rel="stylesheet" href="../css/scratch.css">
 <script src="../blockly_uncompressed.js"></script>
+
 <script src="../generators/javascript.js"></script>
 <script src="../generators/javascript/logic.js"></script>
 <script src="../generators/javascript/loops.js"></script>
@@ -22,6 +24,7 @@
 <script src="../generators/python/colour.js"></script>
 <script src="../generators/python/variables.js"></script>
 <script src="../generators/python/procedures.js"></script>
+<script src="../generators/python/excel.js"></script>
 <script src="../generators/php.js"></script>
 <script src="../generators/php/logic.js"></script>
 <script src="../generators/php/loops.js"></script>
@@ -49,7 +52,6 @@
 <script src="../generators/dart/colour.js"></script>
 <script src="../generators/dart/variables.js"></script>
 <script src="../generators/dart/procedures.js"></script>
-<script src="../msg/messages.js"></script>
 <script src="../blocks/logic.js"></script>
 <script src="../blocks/loops.js"></script>
 <script src="../blocks/math.js"></script>
@@ -58,6 +60,8 @@
 <script src="../blocks/colour.js"></script>
 <script src="../blocks/variables.js"></script>
 <script src="../blocks/procedures.js"></script>
+<script src="../blocks/excel.js"></script>
+<script src="../msg/js/ja.js"></script>
 <script>
 'use strict';
 var workspace = null;
@@ -345,7 +349,7 @@ h1 {
 
   <div id="blocklyDiv"></div>
 
-  <h1>Blockly Playground</h1>
+  <h1>Robotic Blockly</h1>
 
   <p><a href="javascript:void(workspace.setVisible(true))">Show</a>
    - <a href="javascript:void(workspace.setVisible(false))">Hide</a></p>
@@ -734,6 +738,15 @@ h1 {
           </shadow>
         </value>
       </block>
+    </category>
+    <category name="Excel" colour="141">
+      <block type="get_workbook"></block>
+      <block type="get_sheet"></block>
+      <block type="get_cell"></block>
+      <block type="get_cell_value"></block>
+      <block type="get_max_row"></block>
+      <block type="get_max_column_number"></block>
+      <block type="get_max_column_name"></block>
     </category>
     <sep></sep>
     <category name="Variables" colour="330" custom="VARIABLE"></category>
