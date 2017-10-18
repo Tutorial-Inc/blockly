@@ -1,7 +1,7 @@
 {
 	"@metadata": {
 		"author": "Ellen Spertus <ellen.spertus@gmail.com>",
-		"lastupdated": "2017-09-26 13:14:31.417792",
+		"lastupdated": "2017-10-18 18:47:53.253372",
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -395,10 +395,7 @@
 	"PROCEDURES_IFRETURN_HELPURL": "http://c2.com/cgi/wiki?GuardClause",
 	"PROCEDURES_IFRETURN_WARNING": "Warning: This block may be used only within a function definition.",
 	"EXCEL_GET_WORKBOOK": "load workbook with path %1",
-	"EXCEL_GET_SHEET": "get sheet by name %1 of %2",
-	"EXCEL_GET_CELL": "get cell %1 of %2",
-	"EXCEL_GET_CELL_VALUE": "get cell value of %1",
-	"EXCEL_GET_MAX_ROW": "get max row number of %1",
-	"EXCEL_GET_MAX_COLUMN_NUMBER": "get max column number of %1",
-	"EXCEL_GET_MAX_COLUMN_NAME": "get max column name of %1"
+	"EXCEL_GET_SHEET": "get sheet by name %1 from %2",
+	"EXCEL_GET_CELL": "get cell %1 from %2",
+	"EXCEL_GET_CELL_VALUE": "get cell value of cell %1"
 }
