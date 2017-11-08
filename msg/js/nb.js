@@ -71,6 +71,9 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.ENABLE_BLOCK = "Aktiver blokk";
 /** @export */ Blockly.Msg.EXCEL_GET_CELL = "get cell %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_CELL_VALUE = "get cell value of cell %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NAME = "GEt max column name of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NUMBER = "Get max column of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_ROW = "Get max row of sheet %1";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_SHEET = "get sheet by name %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_WORKBOOK = "load workbook with path %1";  // untranslated
 /** @export */ Blockly.Msg.EXPAND_ALL = "Utvid blokker";
@@ -285,7 +288,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.MATH_TRIG_TOOLTIP_COS = "Returner cosinus av en vinkel (ikke radian).";
 /** @export */ Blockly.Msg.MATH_TRIG_TOOLTIP_SIN = "Returner sinus av en vinkel (ikke radian).";
 /** @export */ Blockly.Msg.MATH_TRIG_TOOLTIP_TAN = "Returner tangenten av en vinkel (ikke radian).";
-/** @export */ Blockly.Msg.NEW_VARIABLE = "Opprett variabel...";
+/** @export */ Blockly.Msg.NEW_VARIABLE = "Opprett variabel…";
 /** @export */ Blockly.Msg.NEW_VARIABLE_TITLE = "Nytt variabelnavn:";
 /** @export */ Blockly.Msg.ORDINAL_NUMBER_SUFFIX = "";
 /** @export */ Blockly.Msg.PROCEDURES_ALLOW_STATEMENTS = "tillat uttalelser";
@@ -296,7 +299,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.PROCEDURES_CALLRETURN_TOOLTIP = "Kjør den brukerdefinerte funksjonen'%1' og bruk resultatet av den.";
 /** @export */ Blockly.Msg.PROCEDURES_CALL_BEFORE_PARAMS = "med:";
 /** @export */ Blockly.Msg.PROCEDURES_CREATE_DO = "Opprett '%1'";
-/** @export */ Blockly.Msg.PROCEDURES_DEFNORETURN_COMMENT = "Beskriv denne funksjonen...";
+/** @export */ Blockly.Msg.PROCEDURES_DEFNORETURN_COMMENT = "Beskriv denne funksjonen…";
 /** @export */ Blockly.Msg.PROCEDURES_DEFNORETURN_DO = "";
 /** @export */ Blockly.Msg.PROCEDURES_DEFNORETURN_HELPURL = "https://en.wikipedia.org/wiki/Procedure_%28computer_science%29";
 /** @export */ Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = "gjør noe";
@@ -317,7 +320,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.PROCEDURE_ALREADY_EXISTS = "En prosedyre med navn «%1» finnes allerede.";
 /** @export */ Blockly.Msg.REDO = "Gjør om";
 /** @export */ Blockly.Msg.REMOVE_COMMENT = "Fjern kommentar";
-/** @export */ Blockly.Msg.RENAME_VARIABLE = "Gi nytt navn til variabel...";
+/** @export */ Blockly.Msg.RENAME_VARIABLE = "Gi nytt navn til variabel…";
 /** @export */ Blockly.Msg.RENAME_VARIABLE_TITLE = "Endre navnet til alle '%1' variabler til:";
 /** @export */ Blockly.Msg.TEXT_APPEND_HELPURL = "https://github.com/google/blockly/wiki/Text#text-modification";  // untranslated
 /** @export */ Blockly.Msg.TEXT_APPEND_TITLE = "til %1, legg til teksten %2";
@@ -361,7 +364,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.TEXT_ISEMPTY_TITLE = "%1 er tom";
 /** @export */ Blockly.Msg.TEXT_ISEMPTY_TOOLTIP = "Returnerer sann hvis den angitte teksten er tom.";
 /** @export */ Blockly.Msg.TEXT_JOIN_HELPURL = "https://github.com/google/blockly/wiki/Text#text-creation";  // untranslated
-/** @export */ Blockly.Msg.TEXT_JOIN_TITLE_CREATEWITH = "lage tekst med";
+/** @export */ Blockly.Msg.TEXT_JOIN_TITLE_CREATEWITH = "lag tekst med";
 /** @export */ Blockly.Msg.TEXT_JOIN_TOOLTIP = "Opprett en tekst ved å sette sammen et antall elementer.";
 /** @export */ Blockly.Msg.TEXT_LENGTH_HELPURL = "https://github.com/google/blockly/wiki/Text#text-modification";  // untranslated
 /** @export */ Blockly.Msg.TEXT_LENGTH_TITLE = "lengden av %1";

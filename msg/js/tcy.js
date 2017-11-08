@@ -71,6 +71,9 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.ENABLE_BLOCK = "ತಡೆನ್ ಸಕ್ರಿಯೊ ಮಲ್ಪು";
 /** @export */ Blockly.Msg.EXCEL_GET_CELL = "get cell %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_CELL_VALUE = "get cell value of cell %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NAME = "GEt max column name of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NUMBER = "Get max column of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_ROW = "Get max row of sheet %1";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_SHEET = "get sheet by name %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_WORKBOOK = "load workbook with path %1";  // untranslated
 /** @export */ Blockly.Msg.EXPAND_ALL = "ಮಾತಾ ತಡೆಕ್ಲೆನ ಮಾಹಿತಿನ್ ಪರಡಾವು";

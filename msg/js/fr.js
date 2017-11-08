@@ -71,6 +71,9 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.ENABLE_BLOCK = "Activer le bloc";
 /** @export */ Blockly.Msg.EXCEL_GET_CELL = "get cell %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_CELL_VALUE = "get cell value of cell %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NAME = "GEt max column name of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NUMBER = "Get max column of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_ROW = "Get max row of sheet %1";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_SHEET = "get sheet by name %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_WORKBOOK = "load workbook with path %1";  // untranslated
 /** @export */ Blockly.Msg.EXPAND_ALL = "Développer les blocs";
@@ -308,7 +311,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Attention : Cette fonction a des paramètres en double.";
 /** @export */ Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Surligner la définition de la fonction";
 /** @export */ Blockly.Msg.PROCEDURES_IFRETURN_HELPURL = "http://c2.com/cgi/wiki?GuardClause";
-/** @export */ Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Si une valeur est vraie, alors renvoyer une seconde valeur.";
+/** @export */ Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Si une valeur est vrai, alors renvoyer une seconde valeur.";
 /** @export */ Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Attention : Ce bloc pourrait n’être utilisé que dans une définition de fonction.";
 /** @export */ Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "nom de l’entrée :";
 /** @export */ Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Ajouter une entrée à la fonction.";

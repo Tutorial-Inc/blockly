@@ -71,6 +71,9 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.ENABLE_BLOCK = "Block aktivéieren";
 /** @export */ Blockly.Msg.EXCEL_GET_CELL = "get cell %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_CELL_VALUE = "get cell value of cell %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NAME = "GEt max column name of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NUMBER = "Get max column of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_ROW = "Get max row of sheet %1";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_SHEET = "get sheet by name %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_WORKBOOK = "load workbook with path %1";  // untranslated
 /** @export */ Blockly.Msg.EXPAND_ALL = "Bléck opklappen";
@@ -295,7 +298,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.PROCEDURES_CALLRETURN_HELPURL = "https://en.wikipedia.org/wiki/Subroutine";  // untranslated
 /** @export */ Blockly.Msg.PROCEDURES_CALLRETURN_TOOLTIP = "Run the user-defined function '%1' and use its output.";  // untranslated
 /** @export */ Blockly.Msg.PROCEDURES_CALL_BEFORE_PARAMS = "mat:";
-/** @export */ Blockly.Msg.PROCEDURES_CREATE_DO = "Create '%1'";  // untranslated
+/** @export */ Blockly.Msg.PROCEDURES_CREATE_DO = "'%1' uleeën";
 /** @export */ Blockly.Msg.PROCEDURES_DEFNORETURN_COMMENT = "Dës Funktioun beschreiwen...";
 /** @export */ Blockly.Msg.PROCEDURES_DEFNORETURN_DO = "";  // untranslated
 /** @export */ Blockly.Msg.PROCEDURES_DEFNORETURN_HELPURL = "https://en.wikipedia.org/wiki/Subroutine";  // untranslated

@@ -7,7 +7,7 @@ goog.provide('Blockly.Msg.sk');
 goog.require('Blockly.Msg');
 
 /** @export */ Blockly.Msg.ADD_COMMENT = "Pridať komentár";
-/** @export */ Blockly.Msg.CANNOT_DELETE_VARIABLE_PROCEDURE = "Nie je možné zmazať premennú „%1“, lebo je súčasťou definície funkcie „%2“";
+/** @export */ Blockly.Msg.CANNOT_DELETE_VARIABLE_PROCEDURE = "Nie je možné zmazať premennú „%1“, pretože je súčasťou definície funkcie „%2“";
 /** @export */ Blockly.Msg.CHANGE_VALUE_TITLE = "Zmeniť hodnotu:";
 /** @export */ Blockly.Msg.CLEAN_UP = "Narovnať bloky";
 /** @export */ Blockly.Msg.COLLAPSE_ALL = "Zvinúť bloky";
@@ -71,6 +71,9 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.ENABLE_BLOCK = "Povoliť blok";
 /** @export */ Blockly.Msg.EXCEL_GET_CELL = "get cell %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_CELL_VALUE = "get cell value of cell %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NAME = "GEt max column name of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_COLUMN_NUMBER = "Get max column of sheet %1";  // untranslated
+/** @export */ Blockly.Msg.EXCEL_GET_MAX_ROW = "Get max row of sheet %1";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_SHEET = "get sheet by name %1 from %2";  // untranslated
 /** @export */ Blockly.Msg.EXCEL_GET_WORKBOOK = "load workbook with path %1";  // untranslated
 /** @export */ Blockly.Msg.EXPAND_ALL = "Rozvinúť bloky";
@@ -147,8 +150,8 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.LISTS_REPEAT_TITLE = "vytvor zoznam s prvkom %1 opakovaným %2 krát";
 /** @export */ Blockly.Msg.LISTS_REPEAT_TOOLTIP = "Vytvorí zoznam s niekoľkými rovnakými prvkami s danou hodnotou.";
 /** @export */ Blockly.Msg.LISTS_REVERSE_HELPURL = "https://github.com/google/blockly/wiki/Lists#reversing-a-list";  // untranslated
-/** @export */ Blockly.Msg.LISTS_REVERSE_MESSAGE0 = "reverse %1";  // untranslated
-/** @export */ Blockly.Msg.LISTS_REVERSE_TOOLTIP = "Reverse a copy of a list.";  // untranslated
+/** @export */ Blockly.Msg.LISTS_REVERSE_MESSAGE0 = "obrátiť %1";
+/** @export */ Blockly.Msg.LISTS_REVERSE_TOOLTIP = "Obrátiť kópiu zoznamu.";
 /** @export */ Blockly.Msg.LISTS_SET_INDEX_HELPURL = "https://github.com/google/blockly/wiki/Lists#in-list--set";  // untranslated
 /** @export */ Blockly.Msg.LISTS_SET_INDEX_INPUT_TO = "ako";
 /** @export */ Blockly.Msg.LISTS_SET_INDEX_INSERT = "vložiť na";
@@ -398,7 +401,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.VARIABLES_SET_HELPURL = "https://github.com/google/blockly/wiki/Variables#set";  // untranslated
 /** @export */ Blockly.Msg.VARIABLES_SET_TOOLTIP = "Nastaví túto premennú, aby sa rovnala vstupu.";
 /** @export */ Blockly.Msg.VARIABLE_ALREADY_EXISTS = "Premenná s názvom %1 už existuje.";
-/** @export */ Blockly.Msg.VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE = "A variable named '%1' already exists for another variable of type '%2'.";  // untranslated
+/** @export */ Blockly.Msg.VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE = "Premenná s názvom '%1' už existuje pre inú premennú typu '%2'.";
 /** @export */ Blockly.Msg.PROCEDURES_DEFRETURN_TITLE = Blockly.Msg.PROCEDURES_DEFNORETURN_TITLE;
 /** @export */ Blockly.Msg.CONTROLS_IF_IF_TITLE_IF = Blockly.Msg.CONTROLS_IF_MSG_IF;
 /** @export */ Blockly.Msg.CONTROLS_WHILEUNTIL_INPUT_DO = Blockly.Msg.CONTROLS_REPEAT_INPUT_DO;

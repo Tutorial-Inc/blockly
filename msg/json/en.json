@@ -1,7 +1,7 @@
 {
 	"@metadata": {
 		"author": "Ellen Spertus <ellen.spertus@gmail.com>",
-		"lastupdated": "2017-10-18 18:47:53.253372",
+		"lastupdated": "2017-11-08 13:27:50.045007",
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -397,5 +397,9 @@
 	"EXCEL_GET_WORKBOOK": "load workbook with path %1",
 	"EXCEL_GET_SHEET": "get sheet by name %1 from %2",
 	"EXCEL_GET_CELL": "get cell %1 from %2",
-	"EXCEL_GET_CELL_VALUE": "get cell value of cell %1"
+	"EXCEL_GET_CELL_VALUE": "get cell value of cell %1",
+	"EXCEL_GET_MAX_ROW": "Get max row of sheet %1",
+	"EXCEL_GET_MAX_COLUMN_NUMBER": "Get max column of sheet %1",
+	"EXCEL_GET_MAX_COLUMN_NAME": "GEt max column name of sheet %1"
+
 }

@@ -15,3 +15,13 @@ Blockly](https://developers.google.com/blockly/registration). The questionnaire 
 a few minutes and will help us better support the Blockly community.
 
 Want to contribute? Great! First, read [our guidelines for contributors](https://developers.google.com/blockly/guides/modify/contributing).
+
+# 補足
+
+## Google Closure
+
+`google-closure-library`を同じディレクトリに展開しておくこと
+
+## 翻訳を変えた場合
+
+`msg/`ディレクトリで、`../i18n/create_messages.js json/*.json`を行うこと
